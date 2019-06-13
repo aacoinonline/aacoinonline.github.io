@@ -22,8 +22,8 @@ github: /CoinAlpha/hummingbot_chinese
 #linkedin: suyan404
 
 # avatar and Favicon
-avatar: https://github.com/aacoinonline/aacoinonline.github.io/blob/master/pages/hummingbot.png
-favicon: https://github.com/aacoinonline/aacoinonline.github.io/blob/master/pages/hummingbot.png
+avatar: /assets/img/hummingbot.png
+favicon: /assets/img/avatar.jpg
 
 # disqus config
 disqus:
