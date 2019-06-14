@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 安装前提
-category: hummingbot
+order: 1
+category: Installation
 tags: [hummingbot]
 keywords: hummingbot
 description: hummingbot 中文翻译

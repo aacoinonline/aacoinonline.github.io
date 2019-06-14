@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Docker 安装
-category: hummingbot
+order: 2
+category: Installation
 tags: [hummingbot]
 keywords: hummingbot
 description: hummingbot 中文翻译

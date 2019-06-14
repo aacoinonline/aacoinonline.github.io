@@ -1,7 +1,8 @@
 ---
 layout: post
 title: API keys
-category: hummingbot
+order: 5
+category: Installation
 tags: [hummingbot]
 keywords: hummingbot
 description: hummingbot 中文翻译

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Ethereum节点
-category: hummingbot
+order: 7
+category: Installation
 tags: [hummingbot]
 keywords: hummingbot
 description: hummingbot 中文翻译

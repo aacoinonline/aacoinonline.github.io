@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 用源文件安装
-category: hummingbot
+order: 3
+category: Installation
 tags: [hummingbot]
 keywords: hummingbot
 description: hummingbot 中文翻译

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Ethereum钱包
-category: hummingbot
+order: 6
+category: Installation
 tags: [hummingbot]
 keywords: hummingbot
 description: hummingbot 中文翻译

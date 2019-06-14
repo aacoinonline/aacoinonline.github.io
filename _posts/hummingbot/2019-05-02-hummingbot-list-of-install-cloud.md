@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 在云平台上安装
-category: hummingbot
+order: 4
+category: Installation
 tags: [hummingbot]
 keywords: hummingbot
 description: hummingbot 中文翻译
