@@ -1,13 +1,11 @@
 ---
 layout: post
-title: hummingbot 001
+title: Hummingbot 有用链接
 category: hummingbot
 tags: [hummingbot]
 keywords: hummingbot
 description: hummingbot 中文翻译
 ---
-
-##  Hummingbot
 
 欢迎来到Hummingbot中文文档，Hummingbot是一个开源的工具，能够帮助你在中心化和去中心化的加密平台 创建和操作高频算法交易机器人。
 
