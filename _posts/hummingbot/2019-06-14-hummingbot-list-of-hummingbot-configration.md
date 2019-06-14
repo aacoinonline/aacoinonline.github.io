@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Hummingbot配置
-category: hummingbot
+order: 2
+category: operation
 tags: [hummingbot]
 keywords: hummingbot
 description: hummingbot 中文翻译

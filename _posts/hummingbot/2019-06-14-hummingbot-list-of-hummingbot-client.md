@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Hummingbot客户端
-category: hummingbot
+order: 1
+category: operation
 tags: [hummingbot]
 keywords: hummingbot
 description: hummingbot 中文翻译
