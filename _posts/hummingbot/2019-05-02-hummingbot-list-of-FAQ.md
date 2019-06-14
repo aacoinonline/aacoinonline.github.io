@@ -1,6 +1,7 @@
 ---
 layout: post
-title: FAQ
+title: intro
+order: 4
 category: hummingbot
 tags: [hummingbot]
 keywords: hummingbot

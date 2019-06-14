@@ -1,6 +1,6 @@
 ---
 layout: post
-order: 2
+order: 1
 title: 流动性奖赏计划介绍
 category: harmony
 tags: [Harmony]

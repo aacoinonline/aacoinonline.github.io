@@ -1,6 +1,6 @@
 ---
 layout: post
-order: 1
+order: 2
 title: hummingbot X Harmony ONE Makers流动性奖赏计划
 category: harmony
 tags: [Harmony]
