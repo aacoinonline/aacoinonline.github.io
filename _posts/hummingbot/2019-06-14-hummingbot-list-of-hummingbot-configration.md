@@ -19,10 +19,15 @@ description: hummingbot 中文翻译
 config命令帮助你初始化和配置运行Bot所需的全局信息和策略，在conf/文件夹将创建以下文件。
 
 文件                                                     描述
+
 conf_global.yml                                       全局的配置设定，例如：binance的Api keys和以太节点。
+
 conf_cross_exchange_market_making_strategy_[#].yml    cross-exchange market making strategy设定。
+
 conf_arbitrage_strategy_[#].yml                       arbitrage策略的设定
+
 conf_pure_market_making_[#].yml                       pure market making 策略的设定
+
 conf_discovery_strategy_[#].yml                       discovery策略的设定
 
 **编辑conf/中的文件**
