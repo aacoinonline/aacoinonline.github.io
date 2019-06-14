@@ -1,8 +1,8 @@
 ---
 layout: post
-title: intro
+title: hummingbot
 order: 5
-category: hummingbot
+category: intro
 tags: [hummingbot]
 keywords: hummingbot
 description: hummingbot 中文翻译
