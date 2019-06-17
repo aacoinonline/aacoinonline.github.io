@@ -56,113 +56,113 @@ description: hummingbot 中文翻译
 
 在执行命令行配置过程时，在提示符处按<TAB>将显示有效的可用输入。
 
-
-提示                                      描述
-
-What is your market making strategy >>>:  输入 cross_exchange_market_making
-                                          目前可用的选项:arbitrage或pure_market_making(区分大小写)
-
-Import previous configs or                第一次运行机器人时，输入create。
-create a new config file?                 如果您之前已经初始化，输入import，它将要求您指定配置文件的位置。
-(import/create) >>>:  
-                                          
-
-Enter your maker exchange name >>>:       在跨交易所的市场决策策略中，Maker交易所是bot下Maker订单的交易所。
-                                          当前可用的选项:radar_relay或ddex(区分大小写)
-                                          
-Enter your taker exchange name >>>:       在跨交易所的市场决策策略中，Taker交易所是机器人下达Take指令的交易所。
-                                          当前可用选项:binance(区分大小写)
-                                          
-                                          
-Enter the token symbol you would like to   输入Maker交易所交易的令牌符号。示例输入:ZRX-WETH
-trade on [maker exchange name] >>>:        确保该对是交换的有效对，例如，使用“WETH”而不是“ETH”。
-                                         
-
-Enter the token symbol you would like to   输入Taker交易所交易的令牌符号。示例输入:ZRX-ETH
-trade on [taker exchange name] >>>:        确保(1)该对与为maker exchange输入的令牌符号相对应，
-                                           且(2)是该exchange的有效对。注意，在这个例子中，使用ETH而不是WETH。
-
-What is the minimum profitability for     设置min_profitability(参见[定义](https://docs.hummingbot.io/strategies/arbitrage/#configuration-parameters))。
-your to make a trade?                     : 交易的最小盈利的设定
- (Enter 0.01 to indicate 1%) >>>:
- 
-Do you want to actively adjust/cancel     设置active_order_canceling(参见定义)。
-orders (Default True) >>>:                ：你想主动调整/取消订单吗
-
- 
-What is the minimum profitability to      设置cancel_order_threshold(参见定义)
-actively cancel orders? (Default to 0.0,  ：取消订单的最低盈利能力是多少?
-only specify when active_order_cancelling 
-is disabled, value can be negative) >>>:
-
-
-What is the minimum limit order expiration  设置limit_order_min_expiration(参见定义)
-in seconds? (Default to 130 seconds) >>>:   ：订单的最小时限(以秒为单位)是多少?
-
- 
-Enter your Binance API key >>>:           您必须创建一个启用交易的Binance API key key(选择“启用交易”)。
-
-Enter your Binance API secret >>>:
-
-
-
-Would you like to import an existing wallet    导入或创建一个Ethereum钱包，用于在DDEX上进行交易。
-or create a new wallet? (import / create) >>>: 输入一个有效的输入:
-                                               
-                                               import:从输入私钥导入钱包。
-                                                   如果您选择导入，您将被要求输入您的私钥以及一个密码来锁定/解锁用于Hummingbot的钱包
-                                                - 您的钱包私钥>>>
-                                                - 一个密码，以保护您的钱包密钥>>>
-                                                
-                                               create: 创建一个带有新私钥的新钱包。 
-                                               - 如果您选择create，您将只需要输入一个密码来保护您新创建的钱包
-                                               - 一个密码，以保护您的钱包密钥>>>
-                                               
-                                               **提示**
-                                               使用Metamask中提供的钱包(即从Metamask导入钱包)，您可以查看Hummingbot在去中心化交易所网站上创建的订单和完成的交易。
-                                               
-Which Ethereum node would you like             输入一个Ethereum节点URL，以便Hummingbot在基于Ethereum的去中心化交易所进行交易时使用。
-your client to connect to? >>>:                有关更多信息，请参见安装:[设置Ethereum节点](https://docs.hummingbot.io/installation/node)。
-                                               
-                                               **提示**
-                                               如果您正在使用Infura端点，请确保在URL之前添加https://。
-                                               
- 
+    
+    提示                                      描述
+    
+    What is your market making strategy >>>:  输入 cross_exchange_market_making
+                                              目前可用的选项:arbitrage或pure_market_making(区分大小写)
+    
+    Import previous configs or                第一次运行机器人时，输入create。
+    create a new config file?                 如果您之前已经初始化，输入import，它将要求您指定配置文件的位置。
+    (import/create) >>>:  
+                                              
+    
+    Enter your maker exchange name >>>:       在跨交易所的市场决策策略中，Maker交易所是bot下Maker订单的交易所。
+                                              当前可用的选项:radar_relay或ddex(区分大小写)
+                                              
+    Enter your taker exchange name >>>:       在跨交易所的市场决策策略中，Taker交易所是机器人下达Take指令的交易所。
+                                              当前可用选项:binance(区分大小写)
+                                              
+                                              
+    Enter the token symbol you would like to   输入Maker交易所交易的令牌符号。示例输入:ZRX-WETH
+    trade on [maker exchange name] >>>:        确保该对是交换的有效对，例如，使用“WETH”而不是“ETH”。
+                                             
+    
+    Enter the token symbol you would like to   输入Taker交易所交易的令牌符号。示例输入:ZRX-ETH
+    trade on [taker exchange name] >>>:        确保(1)该对与为maker exchange输入的令牌符号相对应，
+                                               且(2)是该exchange的有效对。注意，在这个例子中，使用ETH而不是WETH。
+    
+    What is the minimum profitability for     设置min_profitability(参见[定义](https://docs.hummingbot.io/strategies/arbitrage/#configuration-parameters))。
+    your to make a trade?                     : 交易的最小盈利的设定
+     (Enter 0.01 to indicate 1%) >>>:
+     
+    Do you want to actively adjust/cancel     设置active_order_canceling(参见定义)。
+    orders (Default True) >>>:                ：你想主动调整/取消订单吗
+    
+     
+    What is the minimum profitability to      设置cancel_order_threshold(参见定义)
+    actively cancel orders? (Default to 0.0,  ：取消订单的最低盈利能力是多少?
+    only specify when active_order_cancelling 
+    is disabled, value can be negative) >>>:
+    
+    
+    What is the minimum limit order expiration  设置limit_order_min_expiration(参见定义)
+    in seconds? (Default to 130 seconds) >>>:   ：订单的最小时限(以秒为单位)是多少?
+    
+     
+    Enter your Binance API key >>>:           您必须创建一个启用交易的Binance API key key(选择“启用交易”)。
+    
+    Enter your Binance API secret >>>:
+    
+    
+    
+    Would you like to import an existing wallet    导入或创建一个Ethereum钱包，用于在DDEX上进行交易。
+    or create a new wallet? (import / create) >>>: 输入一个有效的输入:
+                                                   
+                                                   import:从输入私钥导入钱包。
+                                                       如果您选择导入，您将被要求输入您的私钥以及一个密码来锁定/解锁用于Hummingbot的钱包
+                                                    - 您的钱包私钥>>>
+                                                    - 一个密码，以保护您的钱包密钥>>>
+                                                    
+                                                   create: 创建一个带有新私钥的新钱包。 
+                                                   - 如果您选择create，您将只需要输入一个密码来保护您新创建的钱包
+                                                   - 一个密码，以保护您的钱包密钥>>>
+                                                   
+                                                   **提示**
+                                                   使用Metamask中提供的钱包(即从Metamask导入钱包)，您可以查看Hummingbot在去中心化交易所网站上创建的订单和完成的交易。
+                                                   
+    Which Ethereum node would you like             输入一个Ethereum节点URL，以便Hummingbot在基于Ethereum的去中心化交易所进行交易时使用。
+    your client to connect to? >>>:                有关更多信息，请参见安装:[设置Ethereum节点](https://docs.hummingbot.io/installation/node)。
+                                                   
+                                                   **提示**
+                                                   如果您正在使用Infura端点，请确保在URL之前添加https://。
+                                                   
+     
 ### 配置参数
 
 以下参数是Hummingbot配置文件中的字段(位于/conf文件夹中，例如conf/conf_arbitrage_strategy_ _[#].yml)。
 
-   
-术语                                          定义
-min_profitability                            以小数表示的量(即输入0.01对应1%)。
-                                             Hummingbot在交易所下订单的最低盈利能力。
-                                                
-                                             例如:假设最低盈利能力阈值为0.01，并且在take exchange (binance)上有一个投标价格为100的令牌符号，
-                                             Hummingbot将向制造商交易所(ddex)发出99美元(或更低)的竞价指令，以确保1%(或更高)的利润;
-                                             Hummingbot只有在交易所出价最高的情况下才会下这个订单。
-                                             
-
-active_order_canceling                       True or False
-                                             如果启用(参数设置为True)， Hummingbot将根据min_profit阈值取消该设置。
-                                             如果设置为False, Hummingbot将允许任何未完成的订单过期，除非cancel_order_threshold达到。
-
-
-cancel_order_threshold                       以小数表示的量(即输入0.01对应1%)，可以是0，也可以是负数。
-                                             当活动订单取消设置为False时，如果订单的盈利能力低于此阈值，Hummingbot将取消现有订单，并在可能的情况下，下一个新订单。
-                                             这允许机器人取消订单时，支付gas取消(如果适用)比潜在的贸易损失更好。
-                                             
-
-limit_order_min_expiration                   以秒为单位数量，这是任何限价订单的最小持续时间。默认值:130秒。
-
-top_depth_tolerance                          在Hummingbot修改其订单之前，以报价货币表示的最高总订单量，其价格高于Hummingbot的订单。
-                                             例子:假设最高深度宽容100和20 Hummingbot投标价格,
-                                                 如果存在一个订单总金额超过100的价格(高)比Hummingbot的出价,
-                                                 Hummingbot将取消其订单在20和重新评估下一个新的出价的机会。
-                                             **这个实在翻译不出来汗，，，汗，，，汗，，，**
-                                             
-trade_size_override                          以最大允许订单大小的报价货币表示的金额。
-                                             **这个实在翻译不出来汗，，，汗，，，汗，，，**
-                                             
-                                             示例:假设交易大小超过为100，并且令牌符号为ETH/DAI，那么允许的最大订单大小是值为100 DAI的订单大小。
-                                             
-                                             
+       
+    术语                                          定义
+    min_profitability                            以小数表示的量(即输入0.01对应1%)。
+                                                 Hummingbot在交易所下订单的最低盈利能力。
+                                                    
+                                                 例如:假设最低盈利能力阈值为0.01，并且在take exchange (binance)上有一个投标价格为100的令牌符号，
+                                                 Hummingbot将向制造商交易所(ddex)发出99美元(或更低)的竞价指令，以确保1%(或更高)的利润;
+                                                 Hummingbot只有在交易所出价最高的情况下才会下这个订单。
+                                                 
+    
+    active_order_canceling                       True or False
+                                                 如果启用(参数设置为True)， Hummingbot将根据min_profit阈值取消该设置。
+                                                 如果设置为False, Hummingbot将允许任何未完成的订单过期，除非cancel_order_threshold达到。
+    
+    
+    cancel_order_threshold                       以小数表示的量(即输入0.01对应1%)，可以是0，也可以是负数。
+                                                 当活动订单取消设置为False时，如果订单的盈利能力低于此阈值，Hummingbot将取消现有订单，并在可能的情况下，下一个新订单。
+                                                 这允许机器人取消订单时，支付gas取消(如果适用)比潜在的贸易损失更好。
+                                                 
+    
+    limit_order_min_expiration                   以秒为单位数量，这是任何限价订单的最小持续时间。默认值:130秒。
+    
+    top_depth_tolerance                          在Hummingbot修改其订单之前，以报价货币表示的最高总订单量，其价格高于Hummingbot的订单。
+                                                 例子:假设最高深度宽容100和20 Hummingbot投标价格,
+                                                     如果存在一个订单总金额超过100的价格(高)比Hummingbot的出价,
+                                                     Hummingbot将取消其订单在20和重新评估下一个新的出价的机会。
+                                                 **这个实在翻译不出来汗，，，汗，，，汗，，，**
+                                                 
+    trade_size_override                          以最大允许订单大小的报价货币表示的金额。
+                                                 **这个实在翻译不出来汗，，，汗，，，汗，，，**
+                                                 
+                                                 示例:假设交易大小超过为100，并且令牌符号为ETH/DAI，那么允许的最大订单大小是值为100 DAI的订单大小。
+                                                 
+                                                 
