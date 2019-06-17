@@ -1,7 +1,7 @@
 ---
 layout: post
 order: 1
-title: Discovery
+title: Discovery 
 category: strategies
 tags: [strategies]
 keywords: strategies

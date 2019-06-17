@@ -1,7 +1,7 @@
 ---
 layout: post
 order: 1
-title: strategies
+title: Pure market making
 category: strategies
 tags: [strategies]
 keywords: strategies

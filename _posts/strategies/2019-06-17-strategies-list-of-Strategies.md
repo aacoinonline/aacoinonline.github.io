@@ -1,7 +1,7 @@
 ---
 layout: post
 order: 1
-title: 策略
+title: Strategies 
 category: strategies
 tags: [strategies]
 keywords: strategies
