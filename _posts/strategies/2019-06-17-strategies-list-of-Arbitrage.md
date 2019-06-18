@@ -1,7 +1,7 @@
 ---
 layout: post
 order: 1
-title: Arbitrage 
+title: 套利 
 category: strategies
 tags: [strategies]
 keywords: strategies
