@@ -79,7 +79,10 @@ Harmony Protocol的令牌$ONE同时在Binance的集中交易所和Binance DEX上
 随着做市商提供更多的流动性，我们作为一个项目和一个社区共同成长。通过去中心化的市场创造，我们为我们的社区提供了决定我们增长的力量，通过我们象征性的生态系统，我们两个都连接在一起。要了解更多信息，别忘了在这里[注册](https://www.hummingbot.io/liquidity-bounties/harmony/)。
 
 
-原文链接 ： https://medium.com/harmony-one/one-maker-initiative-stronger-one-by-every-one-429ab7bfcacd?ct=t(EMAIL_CAMPAIGN_onemakertoall)
+原文链接 ： [https://medium.com/harmony-one/one-maker-initiative-stronger-one-by-every-one-429ab7bfcacd?ct=t(EMAIL_CAMPAIGN_onemakertoall)](https://medium.com/harmony-one/one-maker-initiative-stronger-one-by-every-one-429ab7bfcacd?ct=t(EMAIL_CAMPAIGN_onemakertoall))
+
+
+
 
 
 
