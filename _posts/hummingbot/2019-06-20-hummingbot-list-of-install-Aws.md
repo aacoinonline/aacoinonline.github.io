@@ -142,56 +142,56 @@ f071b9002e1e:
 ## Hummingbot配置
 
 Hummingbot 启动
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/001.png)
+![image](http://hummingbot.cn/assets/images/001.png)
 
 输入 start ,然后输入config 【图片没有保存，，，汗，，，】
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/002.png)
+![image](http://hummingbot.cn/assets/images/002.png)
 
 输入|选择交易策略（pure）
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/003.png)
+![image](http://hummingbot.cn/assets/images/003.png)
 
 导入|创建配置文件（第一次需要create）|创建后的配置文件在hummingbot_conf文件夹中
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/004.png)
+![image](http://hummingbot.cn/assets/images/004.png)
 
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/005.png)
+![image](http://hummingbot.cn/assets/images/005.png)
 
 输入|选择交易平台 binance
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/006.png)
+![image](http://hummingbot.cn/assets/images/006.png)
 
 输入|选择交易对
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/007.png)
+![image](http://hummingbot.cn/assets/images/007.png)
 
 输入交易的数量|要大于平台限制的最小数量
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/008.png)
+![image](http://hummingbot.cn/assets/images/008.png)
 
 bid和ask盈利百分比设定
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/009.png)
+![image](http://hummingbot.cn/assets/images/009.png)
 
 bids和asks取消时间间隔设定
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/010.png)
+![image](http://hummingbot.cn/assets/images/010.png)
 
 Api Key设定
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/011.png)
+![image](http://hummingbot.cn/assets/images/011.png)
 
 Api Secret设定
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/012.png)
+![image](http://hummingbot.cn/assets/images/012.png)
 
 Ethereum节点设定
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/013.png)
+![image](http://hummingbot.cn/assets/images/013.png)
 
 设定停止交易的亏损百分比
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/014.png)
+![image](http://hummingbot.cn/assets/images/014.png)
 
 是否是动态止损
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/015.png)
+![image](http://hummingbot.cn/assets/images/015.png)
 
 计算止损的标价币 --- 稳定币（USDT，USD等）
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/016.png)
+![image](http://hummingbot.cn/assets/images/016.png)
 
 开始执行命令
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/017.png)
+![image](http://hummingbot.cn/assets/images/017.png)
 
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/018.png)
+![image](http://hummingbot.cn/assets/images/018.png)
 
 输入status可以查看状态信息
-![image](../../assets/images/019.png)
+![image](http://hummingbot.cn/assets/images/019.png)
