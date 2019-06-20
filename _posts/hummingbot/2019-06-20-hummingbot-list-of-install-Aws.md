@@ -194,4 +194,4 @@ Ethereum节点设定
 ![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/018.png)
 
 输入status可以查看状态信息
-![image](https://github.com/aacoinonline/aacoinonline.github.io/blob/master/assets/images/019.png)
+![image](../../assets/images/019.png)
